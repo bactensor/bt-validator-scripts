@@ -1,0 +1,224 @@
+subnets:
+  - codename: "compute-horde"
+    mainnet_number: 12
+    testnet_number: 174
+    developer_ids: ["dev123", "dev456"]
+    allowed_secrets: ["SENTRY_DSN"]
+
+  - codename: "openkaito"
+    mainnet_number: 5
+    testnet_number: 88
+    developer_ids: ["dev88"]
+    allowed_secrets: ["APIFY_API_KEY", "OPENAI_API_KEY_5", "WANDB_API_KEY"]
+  
+  - codename: "text_prompting"
+    mainnet_number: 1
+    testnet_number: 61
+    developer_ids: ["dev61"]
+    allowed_secrets: ["HF_TOKEN"]
+
+  - codename: "targon"
+    mainnet_number: 4
+    testnet_number: 40
+    developer_ids: ["dev40"]
+    # allowed_secrets: ["SYBIL_API_KEY"]
+    allowed_secrets: []
+
+  - codename: "proprietary-trading-network"
+    mainnet_number: 8
+    testnet_number: 116
+    developer_ids: ["dev116"]
+    allowed_secrets: ["twelvedata_apikey", "polygon_apikey"]
+
+  - codename: "pretraining"
+    mainnet_number: 9
+    testnet_number: xx
+    developer_ids: ["devxxx"]
+    allowed_secrets: []
+
+  - codename: "cortex.t"
+    mainnet_number: 18
+    testnet_number: 24
+    developer_ids: ["dev24"]
+    allowed_secrets: ["OPENAI_API_KEY_18", "ANTHROPIC_API_KEY"]
+
+  - codename: "tensor_alchemy"
+    mainnet_number: 26
+    testnet_number: 25
+    developer_ids: ["dev25"]
+    allowed_secrets: ["OPENAI_API_KEY_26"]
+
+  - codename: "compute"
+    mainnet_number: 27
+    testnet_number: 15
+    developer_ids: ["dev15"]
+    allowed_secrets: ["WANDB_API_KEY", "OLD_WANDB_API_KEY", "NEW_WANDB_API_KEY"]
+
+  - codename: "data-universe"
+    mainnet_number: 13
+    testnet_number: 1300
+    developer_ids: ["dev1300"]
+    allowed_secrets: ["DATABASE_USER_PASSWORD", "APIFY_API_TOKEN", "REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET", "REDDIT_USERNAME", "REDDIT_PASSWORD"]
+
+
+  - codename: "bitagent-subnet"
+    mainnet_number: 20
+    testnet_number: 76
+    developer_ids: ["dev76"]
+    allowed_secrets: []
+    
+  - codename: "smart-scrape"
+    mainnet_number: 22
+    testnet_number: 2200
+    developer_ids: ["dev2200"]
+    allowed_secrets: ["OPENAI_API_KEY_22", "EXPECTED_ACCESS_KEY", "WANDB_API_KEY", "APIFY_API_KEY", "URL_SUBNET_18", "DISCORD_MESSAGES_DB_URL", "PINECONE_API_KEY"]
+
+  - codename: "NicheImage"
+    mainnet_number: 23
+    testnet_number: 119
+    developer_ids: ["dev119"]
+    allowed_secrets: []
+
+  - codename: "snpOracle"
+    mainnet_number: 28
+    testnet_number: 93
+    developer_ids: ["dev93"]
+    allowed_secrets: ["WANDB_API_KEY", "HF_ACCESS_TOKEN"]
+
+  - codename: "llm-detection"
+    mainnet_number: 32
+    testnet_number: 87
+    developer_ids: ["dev87"]
+    allowed_secrets: []
+
+  - codename: "omegalabs-bittensor-subnet"
+    mainnet_number: 24
+    testnet_number: 96
+    developer_ids: ["dev96"]
+    allowed_secrets: []
+
+  - codename: "SubVortex"
+    mainnet_number: 7
+    testnet_number: 92
+    developer_ids: ["dev92"]
+    allowed_secrets: []
+
+  - codename: "MyShell-TTS-Subnet"
+    mainnet_number: 3
+    testnet_number: 31
+    developer_ids: ["dev31"]
+    allowed_secrets: ["APIFY_API_KEY", "WASABI_ENDPOINT_URL", "INDEXING_API_KEY", "WASABI_ACCESS_KEY_ID", "WASABI_ACCESS_KEY", "APIFY_TWITTER_QUERY_PROVIDER", "APIFYI_REDDIT_QUERY_PROVIDER", "APIFY_TWEET_FLUSH_ACTOR_ID", "APIFY_REDDIT_SCRAPER_LITE_ACTOR_ID", "APIFY_TWEET_SCRAPER_ACTOR_ID", "APIFY_REDDIT_SCRAPER_ACTOR_ID"] 
+
+  - codename: "NASChain"
+    mainnet_number: 31
+    testnet_number: 123
+    developer_ids: ["dev123"]
+    allowed_secrets: ["WANDB_API_KEY"] 
+
+  - codename: "omron_subnet"
+    mainnet_number: 2
+    testnet_number: 118
+    developer_ids: ["dev118"]
+    allowed_secrets: [] 
+
+  - codename: "BitAds.ai"
+    mainnet_number: 16
+    testnet_number: 120
+    developer_ids: ["dev120"]
+    allowed_secrets: []
+
+  - codename: "Three Gen"
+    mainnet_number: 17
+    testnet_number: 89
+    developer_ids: ["dev89"]
+    allowed_secrets: [] 
+
+  - codename: "sturdy-subnet"
+    mainnet_number: 10
+    testnet_number: 104
+    developer_ids: ["dev104"]
+    allowed_secrets: [] 
+
+  - codename: "dippy-bittensor-subnet"
+    mainnet_number: 11
+    testnet_number: 135
+    developer_ids: ["dev135"]
+    allowed_secrets: [] 
+
+  - codename: "ReadyAI"
+    mainnet_number: 33
+    testnet_number: 138
+    developer_ids: ["dev138"]
+    allowed_secrets: []
+    
+  - codename: "Protein Folding"
+    mainnet_number: 25
+    testnet_number: 141
+    developer_ids: ["dev141"]
+    allowed_secrets: ["WANDB_API_KEY", "HF_TOKEN"]
+
+  - codename: "LosicNet"
+    mainnet_number: 35
+    testnet_number: 78
+    developer_ids: ["dev78"]
+    allowed_secrets: []
+
+  - codename: "Omega-Any-to-Any"
+    mainnet_number: 21
+    testnet_number: 157
+    developer_ids: ["dev157"]
+    allowed_secrets: []
+
+  - codename: "Finetuning"
+    mainnet_number: 37
+    testnet_number: 179
+    developer_ids: ["dev179"]
+    allowed_secrets: ["WANDB_ACCESS_TOKEN"]
+
+  - codename: "infinite-games"
+    mainnet_number: 6
+    testnet_number: 155
+    developer_ids: ["dev155"]
+    allowed_secrets: ["WANDB_ACCESS_TOKEN"]
+
+  - codename: "Bettensor"
+    mainnet_number: 30
+    testnet_number: 181
+    developer_ids: ["dev181"]
+    allowed_secrets: ["RAPID_API_KEY"]
+
+  - codename: "coldint"
+    mainnet_number: 29
+    testnet_number: 29000
+    developer_ids: ["dev29000"]
+    allowed_secrets: ["database_password"]
+
+  - codename: "sportstensor"
+    mainnet_number: 41
+    testnet_number: 172
+    developer_ids: ["dev172"]
+    allowed_secrets: []
+
+  - codename: "graphite"
+    mainnet_number: 43
+    testnet_number: 65
+    developer_ids: ["dev65"]
+    allowed_secrets: ["WANDB_API_KEY"]
+
+  - codename: "bitmind"
+    mainnet_number: 34
+    testnet_number: 168
+    developer_ids: ["dev168"]
+    allowed_secrets: ["WANDB_API_KEY"]
+
+  - codename: "score_predict"
+    mainnet_number: 44
+    testnet_number: 180
+    developer_ids: ["dev180"]
+    allowed_secrets: []
+
+  - codename: "masa"
+    mainnet_number: 42
+    testnet_number: 165
+    developer_ids: ["dev165"]
+    allowed_secrets: []

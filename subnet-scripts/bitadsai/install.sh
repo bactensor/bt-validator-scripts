@@ -19,18 +19,16 @@ python3.11 pip install -r requirements.txt
 apt-get update
 apt-get install sqlite3
 
-if [ -f .env ]; then
-    export $(cat .env | grep -v '#' | awk '/=/ {print $1}')
-fi
+export $(awk '!/^#/ && /=/ {print}' .env)
 
 pm2 start run_validator_auto_update.py \
     --log-date-format "HH:mm:ss.SSS MM-DD-YY Z" \
     --time --restart-delay 15000 \
     --interpreter python3 -- \
-    --netuid $BITTENSOR_NETUID \
-    --wallet.name $BITTENSOR_WALLET_NAME \
-    --wallet.hotkey $BITTENSOR_WALLET_HOTKEY_NAME \
-    --subtensor.chain_endpoint $BITTENSOR_SUBTENSOR_CHAIN_ENDPOINT \
+    --netuid "$BITTENSOR_NETUID" \
+    --wallet.name "$BITTENSOR_WALLET_NAME" \
+    --wallet.hotkey "$BITTENSOR_WALLET_HOTKEY_NAME" \
+    --subtensor.chain_endpoint "$BITTENSOR_SUBTENSOR_CHAIN_ENDPOINT" \
     --logging.debug \
     --logging.trace \
     --axon.port 26842

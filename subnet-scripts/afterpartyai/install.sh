@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -eu
 #NO GPU 
 
 git clone https://github.com/afterpartyai/bittensor-conversation-genome-project ~/.bittensor/subnets/cgp-subnet/

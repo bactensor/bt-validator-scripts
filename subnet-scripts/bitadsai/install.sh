@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -eu
 git clone https://github.com/eseckft/BitAds.ai.git ~/.bittensor/subnets/BitAds.ai/
 
 cd ~/.bittensor/subnets/BitAds.ai/

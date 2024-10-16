@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -eu
 #no GPU
 
 export $(awk '!/^#/ && /=/ {print}' .env)

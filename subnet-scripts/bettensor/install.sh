@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/bin/bash -eu
 git clone https://github.com/bettensor/bettensor.git  ~/.bittensor/subnets/bettensor/
-cd ~/.bittensor/subnets/bettensor/ || exit
+cd ~/.bittensor/subnets/bettensor/
 
 sudo apt-get update && sudo apt-get install python3.10-venv
 

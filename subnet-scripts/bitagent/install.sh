@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -eu
 
 git clone https://github.com/RogueTensor/bitqna_subnet ~/.bittensor/subnets/bitqna_subnet/
 
